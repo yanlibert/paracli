@@ -103,3 +103,5 @@ ENV/
 # Emacs file
 *~
 \#*\#
+.\#*
+logfile
