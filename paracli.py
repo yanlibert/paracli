@@ -10,7 +10,7 @@ from multiprocessing.pool import ThreadPool
 def run_cmd(cmd):
     p = subprocess.Popen(cmd, shell=True)
     out, err = p.communicate()
-    return 0
+    return(out, err)
 #
 # Test if 3rd argument is an integer
 # 
