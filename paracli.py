@@ -64,6 +64,6 @@ for line in lines:
     pool.apply_async(run_cmd, (line,))
 #
 pool.close()
-#pool.join()
+pool.join()
 #
 
