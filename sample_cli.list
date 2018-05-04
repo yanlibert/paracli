@@ -1,0 +1,4 @@
+find / -type f -name "*.txt" 2>/dev/null > logfile
+find / -type f -name "*.py" 2>/dev/null >> logfile
+find / -type f -name "*.c"  2>/dev/null >> logfile
+sleep 5
