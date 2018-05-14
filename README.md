@@ -12,6 +12,6 @@ cd paracmd
 
 Where n is the number of processes to launch in parallel.
 
-> n should be an integer. If n is 0, paracli will use the
+> n should be an integer. If n is 0, paracmd will use the
 > maximum cpu available
 
